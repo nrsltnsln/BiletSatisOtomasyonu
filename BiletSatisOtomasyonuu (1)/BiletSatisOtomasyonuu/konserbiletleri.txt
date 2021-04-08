@@ -1,0 +1,28 @@
+
+GELECEK ÜÇ AY'IN SATIŞTA OLAN BİLETLERİ BULUNMAKTADIR :
+
+Şehir             Sanatçı     Kategori         Ay          Gün     Saat 
+
+İstanbul        MuratBoz      POP           Nisan      15       21:00
+Ankara        SezenAksu    POP          Mayıs       18       20:00
+Erzurum      Sıla                 POP          Haziran    21       19:00
+Ankara        Tarkan           POP          Nisan        17       21:30
+İstanbul        HandeYener POP          Nisan        17       21:30
+
+
+İstanbul        ElifÇağlarMuslu      CAZ          Nisan      15        21:00
+Ankara        FatihErkoç              CAZ          Mayıs       18       20:00
+Erzurum      ilhanErşahin            CAZ          Haziran   21      19:00
+Ankara        ÖnderFocan           CAZ          Nisan       17       21:30
+İstanbul        SİbelKöse               CAZ          Nisan       17       21:30
+
+
+
+İstanbul        Duman               ROCK          Nisan      15        21:00
+Ankara        Teoman              ROCK          Mayıs       18       20:00
+Erzurum      HaykoCepkin    ROCK          Haziran   21      19:00
+Ankara        Athena               ROCK           Nisan       17       21:30
+İstanbul       MorVeÖtesi       ROCK           Nisan       17       21:30
+
+
+

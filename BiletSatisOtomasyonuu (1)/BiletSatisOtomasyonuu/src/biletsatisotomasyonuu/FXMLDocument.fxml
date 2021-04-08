@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.media.MediaView?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="501.0" prefWidth="739.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="biletsatisotomasyonuu.FXMLDocumentController">
+   <children>
+      <AnchorPane prefHeight="57.0" prefWidth="655.0" style="-fx-background-color: #833471;" AnchorPane.bottomAnchor="443.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="57.0" fitWidth="216.0" layoutY="1.0">
+               <image>
+                  <Image url="@image/iconn/BİLETTTT.jpg" />
+               </image>
+            </ImageView>
+            <HBox layoutX="400.0" layoutY="6.0" prefHeight="46.0" prefWidth="277.0">
+               <children>
+                  <TextField fx:id="aramabar" prefHeight="37.0" prefWidth="226.0" promptText="Şehir, Müze Veya Sanatçı Giriniz... " />
+                  <ImageView fx:id="araImage" fitHeight="33.0" fitWidth="33.0" onMouseClicked="#Ara" style="-fx-blend-mode: #ffffff; -fx-cursor: hand; -fx-effect: #ffffff; -fx-focus-traversable: #ffffff;">
+                     <image>
+                        <Image url="@image/iconn/search%20(3).png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+      <Label blendMode="MULTIPLY" layoutX="158.0" layoutY="155.0" prefHeight="46.0" prefWidth="451.0" style="-fx-background-color: #c8d6e5;" text=" YENİ SATIŞTA &amp; YAKINDA " textFill="#221094">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="muze" blendMode="DARKEN" layoutX="25.0" layoutY="77.0" mnemonicParsing="false" onMouseClicked="#muzeye_git" prefHeight="46.0" prefWidth="133.0" text="Müze" textOverrun="LEADING_WORD_ELLIPSIS">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="konser" blendMode="DARKEN" layoutX="365.0" layoutY="77.0" mnemonicParsing="false" onMouseClicked="#konsere_git" prefHeight="46.0" prefWidth="127.0" text="Konser" textOverrun="LEADING_WORD_ELLIPSIS">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="ulasim" blendMode="DARKEN" layoutX="197.0" layoutY="77.0" mnemonicParsing="false" onMouseClicked="#Ulasima_git" prefHeight="46.0" prefWidth="127.0" text="Ulaşım" textOverrun="LEADING_WORD_ELLIPSIS">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="46.0" fitWidth="45.0" layoutX="57.0" layoutY="142.0">
+         <image>
+            <Image url="@../../../../../Desktop/marker.png" />
+         </image>
+      </ImageView>
+      <TableView fx:id="tarih_yer_tablosu" layoutX="14.0" layoutY="217.0" prefHeight="261.0" prefWidth="403.0">
+        <columns>
+          <TableColumn fx:id="tarih" prefWidth="116.0" text="Tarih" />
+          <TableColumn fx:id="yer" prefWidth="151.0" text="Yer" />
+            <TableColumn fx:id="tur" prefWidth="185.0" text="Tür" />
+        </columns>
+      </TableView>
+      <Button layoutX="571.0" layoutY="65.0" mnemonicParsing="false" onMouseClicked="#yardima_git" prefHeight="68.0" prefWidth="147.0" style="-fx-background-color: #222f3e;" text="Yardım" textFill="#eee5e5">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font></Button>
+      <MediaView fitHeight="200.0" fitWidth="200.0" layoutX="365.0" layoutY="247.0" />
+      <HBox layoutX="429.0" layoutY="251.0" prefHeight="192.0" prefWidth="269.0">
+         <children>
+            <ImageView fitHeight="229.0" fitWidth="294.0">
+               <image>
+                  <Image url="@image/iconn/muratbozz.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

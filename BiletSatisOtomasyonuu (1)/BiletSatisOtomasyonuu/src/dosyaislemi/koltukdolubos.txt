@@ -1,0 +1,13 @@
+1->DOLU         11->BOŞ
+2->BOŞ            12->DOLU
+3->DOLU         13->BOŞ
+4 ->DOLU        14->DOLU
+5->BOŞ            15->BOŞ
+6->DOLU         16->DOLU
+7->BOŞ            17->BOŞ
+8->BOŞ            18->DOLU
+9->DOLU         19->DOLU
+10->BOŞ          20->BOŞ
+
+
+

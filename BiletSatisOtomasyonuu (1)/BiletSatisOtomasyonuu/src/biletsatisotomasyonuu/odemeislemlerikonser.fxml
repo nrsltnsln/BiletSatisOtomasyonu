@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #636e72;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="biletsatisotomasyonuu.OdemeislemlerikonserController">
+   <children>
+      <Label fx:id="bilet" alignment="TOP_LEFT" layoutX="18.0" layoutY="76.0" prefHeight="30.0" prefWidth="566.0" style="-fx-background-color: #3498db;" />
+      <TextField fx:id="kart_num" layoutX="44.0" layoutY="186.0" prefHeight="51.0" prefWidth="205.0" promptText="kart num " />
+      <TextField fx:id="kart_kullanci_adi" layoutX="300.0" layoutY="186.0" prefHeight="51.0" prefWidth="218.0" promptText="kartın kullancı adı" />
+      <TextField fx:id="kart_guvenli_kod" layoutX="44.0" layoutY="252.0" prefHeight="51.0" prefWidth="205.0" promptText="güvenli kod" />
+      <DatePicker fx:id="son_kullanim_tarih" layoutX="300.0" layoutY="252.0" prefHeight="51.0" prefWidth="218.0" promptText="son kullanım tarihi" />
+      <Button layoutX="166.0" layoutY="316.0" mnemonicParsing="false" onMouseClicked="#BiletAl" prefHeight="71.0" prefWidth="218.0" text="Bilet Al" textFill="#40355e">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font></Button>
+      <Label fx:id="bilet1" alignment="TOP_LEFT" layoutX="14.0" layoutY="6.0" prefHeight="70.0" prefWidth="430.0" text="Bilet Bilgileri : " textFill="#262140">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font></Label>
+      <Label fx:id="bilet2" alignment="TOP_LEFT" layoutX="18.0" layoutY="106.0" prefHeight="30.0" prefWidth="566.0" style="-fx-background-color: #3498db;" />
+      <Label fx:id="bilet21" alignment="TOP_LEFT" layoutX="18.0" layoutY="136.0" prefHeight="30.0" prefWidth="566.0" style="-fx-background-color: #3498db;" />
+   </children>
+</AnchorPane>

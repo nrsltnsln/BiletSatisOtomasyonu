@@ -1,0 +1,7 @@
+
+Kalkış noktası:ankara
+Varış noktası:erzurum
+Koltuk numaranız:9
+Kişi Adı:nurcan
+Kişi Soyadı:aksu
+TC:1977
